@@ -1,95 +1,940 @@
 {
     "1": {
-        "task": "Расширение для Google Chrome ",
-        "price": "3 000 руб. за проект",
-        "date_published": " 10 дней назад ",
+        "task": "Бот парсер объявлений с иностранной доски сайтов",
+        "price": "27 000 руб. за проект",
+        "date_published": " ~ 6 часов назад ",
         "technologies": [
-            "google chrome",
-            "расширение google chrome"
+            "php",
+            "python",
+            "javascript",
+            "ai",
+            "ии",
+            "боты",
+            "парсинг данных",
+            "парсинг",
+            "parsing"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "2": {
+        "task": "Cделать бот, который автоматически будет оставлять заявку на работу в определенных биржах",
+        "price": "договорная",
+        "date_published": " ~ 7 часов назад ",
+        "technologies": [
+            "боты",
+            "парсинг",
+            "php",
+            "python",
+            "ai",
+            "ии"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "3": {
+        "task": "Нцжно написвть программу которая чекает базы ",
+        "price": "120 000 руб. за проект",
+        "date_published": " ~ 23 часа назад ",
+        "technologies": [
+            "програмированние",
+            "python",
+            "script",
+            "ввтоматизация",
+            "создание"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "4": {
+        "task": "Консультация для проекта Elasticsearch",
+        "price": "договорная",
+        "date_published": " 1 день назад ",
+        "technologies": [
+            "elasticsearch",
+            "python",
+            "javascript",
+            "sql",
+            "rest api",
+            "rabbitmq",
+            "devops"
+        ],
+        "order_responses": "0 откликов"
+    },
+    "5": {
+        "task": "Разработка трейдинг-бота (Python)",
+        "price": "договорная",
+        "date_published": " 1 день назад ",
+        "technologies": [
+            "python",
+            "backend",
+            "bot"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "6": {
+        "task": "Написать скрипт для рассылки в телеграм по списку username на python",
+        "price": "5 000 руб. за проект",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "python"
+        ],
+        "order_responses": " 20 откликов"
+    },
+    "7": {
+        "task": "Доработка Python скрипта в 1200 строк",
+        "price": "договорная",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "-"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "8": {
+        "task": "Нужен программист на python (внедрить новую верстку и функционал)",
+        "price": "договорная",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "python",
+            "django",
+            "seo",
+            "full stack"
+        ],
+        "order_responses": " 8 откликов"
+    },
+    "9": {
+        "task": "Разработка торговых роботов на Python",
+        "price": "2 000 руб. за час",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "python",
+            "algorithmic",
+            "trading",
+            "pandas",
+            "dataframe"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "10": {
+        "task": "Система для проведения проверок объектов с использованием Телеграм бот",
+        "price": "договорная",
+        "date_published": " 6 дней назад ",
+        "technologies": [
+            "django",
+            "python",
+            "laravel"
+        ],
+        "order_responses": " 12 откликов"
+    },
+    "11": {
+        "task": "Настроить агрегацию данных в Google Sheets с помощью коннектора",
+        "price": "30 000 руб. за проект",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "аналитика",
+            "маркетинг",
+            "python",
+            "google sheets",
+            "сквозная аналитика"
+        ],
+        "order_responses": " 3 отклика"
+    },
+    "12": {
+        "task": "Code Python (pandas) - data cleaning",
+        "price": "600 руб. за проект",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "python",
+            "pandas",
+            "excel",
+            "english"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "13": {
+        "task": "Разработка бота граббера",
+        "price": "1 500 руб. за проект",
+        "date_published": " 2 дня назад ",
+        "technologies": [
+            "python",
+            "php",
+            "js"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "14": {
+        "task": "Собрать Back-End  на Python,  Django",
+        "price": "150 000 руб. за проект",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "python",
+            "django"
+        ],
+        "order_responses": " 9 откликов"
+    },
+    "15": {
+        "task": "Разработка большой киберспортивной платформы ",
+        "price": "120 000 руб. за проект",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "git",
+            "docker",
+            "redis",
+            "apache kafka",
+            "postgresql",
+            "python",
+            "fastapi",
+            "sql"
+        ],
+        "order_responses": " 8 откликов"
+    },
+    "16": {
+        "task": "Разработать сайт и бекэнд на Django/DRF",
+        "price": "договорная",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "python",
+            "django",
+            "drf",
+            "rest",
+            "rest api",
+            "rest framework"
+        ],
+        "order_responses": " 12 откликов"
+    },
+    "17": {
+        "task": "Доработка экранов приложения на Nativescript 7 (Vue.js)",
+        "price": "9 000 руб. за проект",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "javascript",
+            "vue",
+            "nativescript"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "18": {
+        "task": "Django прямые трансляции",
+        "price": "договорная",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "django",
+            "python",
+            "webrtc"
+        ],
+        "order_responses": " 6 откликов"
+    },
+    "19": {
+        "task": "Требуется доработка двух проектов на Джанго",
+        "price": "договорная",
+        "date_published": " 3 дня назад ",
+        "technologies": [
+            "django",
+            "git",
+            "python",
+            "html",
+            "linux",
+            "server"
+        ],
+        "order_responses": " 16 откликов"
+    },
+    "20": {
+        "task": "Парсинг URL Scheme iOS приложений",
+        "price": "договорная",
+        "date_published": " 4 дня назад ",
+        "technologies": [
+            "python",
+            "c#",
+            "парсинг",
+            "parsers"
+        ],
+        "order_responses": " 6 откликов"
+    },
+    "21": {
+        "task": "Доработка проекта на Python Django с REST API (DRF)",
+        "price": "1 100 руб. за час",
+        "date_published": " 11 дней назад ",
+        "technologies": [
+            "django",
+            "drf",
+            "django rest framework",
+            "postgres",
+            "postgresql",
+            "sql",
+            "ооп"
+        ],
+        "order_responses": " 11 откликов"
+    },
+    "22": {
+        "task": "Веб приложение для бронирования в сфере обслуживания",
+        "price": "договорная",
+        "date_published": " 5 дней назад ",
+        "technologies": [
+            "react",
+            "bootstrap",
+            "rest api"
+        ],
+        "order_responses": " 15 откликов"
+    },
+    "23": {
+        "task": "Доработать Python скрипты",
+        "price": "договорная",
+        "date_published": " 5 дней назад ",
+        "technologies": [
+            "-"
+        ],
+        "order_responses": " 2 отклика"
+    },
+    "24": {
+        "task": "Создание библиотеки на Python из функций приложения на Swift",
+        "price": "40 000 руб. за проект",
+        "date_published": " 5 дней назад ",
+        "technologies": [
+            "python",
+            "linux",
+            "swift"
         ],
         "order_responses": " 1 отклик"
     },
-    "2": {
-        "task": "Доработка приложения на NativeScript (TS)",
+    "25": {
+        "task": "Доработка ряда задач на Python",
+        "price": "договорная",
+        "date_published": " 5 дней назад ",
+        "technologies": [
+            "python",
+            "frontend",
+            "backend"
+        ],
+        "order_responses": " 11 откликов"
+    },
+    "26": {
+        "task": "Написать парсер канала телеграмм с записью в БД",
+        "price": "3 000 руб. за проект",
+        "date_published": " 6 дней назад ",
+        "technologies": [
+            "aiogram",
+            "python",
+            "mysql"
+        ],
+        "order_responses": " 24 отклика"
+    },
+    "27": {
+        "task": "Доработка сайта / api (Django/Python)",
+        "price": "100 000 руб. за проект",
+        "date_published": " 6 дней назад ",
+        "technologies": [
+            "python",
+            "django",
+            "rest",
+            "postgresql"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "28": {
+        "task": "Python OCR парсер",
+        "price": "договорная",
+        "date_published": " 6 дней назад ",
+        "technologies": [
+            "ocr",
+            "python"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "29": {
+        "task": "Личный кабинет веб наблюдателя",
+        "price": "50 000 руб. за проект",
+        "date_published": " 7 дней назад ",
+        "technologies": [
+            "python"
+        ],
+        "order_responses": " 9 откликов"
+    },
+    "30": {
+        "task": "Написать loss-функцию под Keras/Tensorflow (Python)",
+        "price": "5 000 руб. за проект",
+        "date_published": " 7 дней назад ",
+        "technologies": [
+            "python",
+            "keras",
+            "tensorflow",
+            "нейронные сети"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "31": {
+        "task": "Спарсить базу deeplinks с сайта https://www.appsight.io/",
+        "price": "договорная",
+        "date_published": " 8 дней назад ",
+        "technologies": [
+            "python",
+            "c#",
+            "parsers"
+        ],
+        "order_responses": " 11 откликов"
+    },
+    "32": {
+        "task": "Найти базу iOS URL Scheme для приложений",
+        "price": "договорная",
+        "date_published": " 8 дней назад ",
+        "technologies": [
+            "swift",
+            "ios",
+            "c++",
+            "java",
+            "javascript",
+            "python",
+            "c#",
+            "parsers"
+        ],
+        "order_responses": " 2 отклика"
+    },
+    "33": {
+        "task": "Архивация данных",
+        "price": "договорная",
+        "date_published": " 8 дней назад ",
+        "technologies": [
+            "mysql"
+        ],
+        "order_responses": " 1 отклик"
+    },
+    "34": {
+        "task": " Разработать cервис | Парсинг данных с множества площадок",
+        "price": "100 000 руб. за проект",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "разработка",
+            "php",
+            "python",
+            "парсеры"
+        ],
+        "order_responses": " 13 откликов"
+    },
+    "35": {
+        "task": "Django сделать (доделать) авторизацию SSO SAML/LDAP",
+        "price": "договорная",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "python",
+            "django",
+            "rest",
+            "ldap",
+            "ad",
+            "sso"
+        ],
+        "order_responses": "0 откликов"
+    },
+    "36": {
+        "task": "Разработка многофункционального устройства \"Интеллектуальный фонарь\"",
+        "price": "100 000 руб. за проект",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "электроника",
+            "с++",
+            "java",
+            "python",
+            "доводить работу до конца",
+            "решение нестандартных задач",
+            "адекватность"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "37": {
+        "task": "Автоматизировать создание опросов",
+        "price": "договорная",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "api",
+            "php",
+            "python",
+            "typeform"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "38": {
+        "task": "Добавить метрику яндекс и гугл аналиту к django",
+        "price": "договорная",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "python",
+            "django html"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "39": {
+        "task": "МОДУЛЬ ПАРСИНГА САЙТОВ",
+        "price": "2 400 руб. за проект",
+        "date_published": " 9 дней назад ",
+        "technologies": [
+            "python",
+            "php",
+            "js",
+            "api"
+        ],
+        "order_responses": " 12 откликов"
+    },
+    "40": {
+        "task": "Создание базы наименований вузов с использованием нечеткого поиска",
+        "price": "5 000 руб. за проект",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "python",
+            "parsing",
+            "big data"
+        ],
+        "order_responses": " 3 отклика"
+    },
+    "41": {
+        "task": "Создать телеграм-бот",
+        "price": "10 000 руб. за проект",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "python"
+        ],
+        "order_responses": " 23 отклика"
+    },
+    "42": {
+        "task": "Реализовать сквозную аналитику по примеру",
+        "price": "договорная",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "аналитика",
+            "python"
+        ],
+        "order_responses": "0 откликов"
+    },
+    "43": {
+        "task": "Сделать компонент на Python + Vue.js",
+        "price": "договорная",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "python",
+            "django",
+            "vue.js"
+        ],
+        "order_responses": " 4 отклика"
+    },
+    "44": {
+        "task": "Разработать Бота Для Рассылки В Discord",
+        "price": "10 000 руб. за проект",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "python",
+            "selenium",
+            "dm",
+            "discord"
+        ],
+        "order_responses": " 6 откликов"
+    },
+    "45": {
+        "task": "Python bot для telegram",
         "price": "договорная",
         "date_published": " 11 дней назад ",
         "technologies": [
-            "ios",
-            "nativescript",
-            "xcode",
-            "ts"
+            "python",
+            "telegram bot",
+            "питон"
         ],
-        "order_responses": " 1 отклик"
+        "order_responses": " 16 откликов"
     },
-    "3": {
-        "task": "Доработка проекта на react",
-        "price": "800 руб. за час",
-        "date_published": " 15 дней назад ",
+    "46": {
+        "task": "Криптобот для биржи Bybit",
+        "price": "20 000 руб. за проект",
+        "date_published": " 11 дней назад ",
         "technologies": [
-            "react",
-            "html",
-            "css"
+            "python",
+            "php",
+            "nodejs"
+        ],
+        "order_responses": " 8 откликов"
+    },
+    "47": {
+        "task": "Разработать систему машинного зрения от железа до программ и прототипа",
+        "price": "600 000 руб. за проект",
+        "date_published": " 14 дней назад ",
+        "technologies": [
+            "python. open cv. машинное зрение. распознавание изображений. прототип в железе."
+        ],
+        "order_responses": " 17 откликов"
+    },
+    "48": {
+        "task": "Доработка проекта Python/Django",
+        "price": "договорная",
+        "date_published": " 12 дней назад ",
+        "technologies": [
+            "python",
+            "jango",
+            "github",
+            "питон",
+            "джанго"
+        ],
+        "order_responses": " 12 откликов"
+    },
+    "49": {
+        "task": "Cделать форк блокчейна BEP2 с нашими условиями",
+        "price": "договорная",
+        "date_published": " 12 дней назад ",
+        "technologies": [
+            "форк",
+            "блокчейн",
+            "bep2",
+            "java",
+            "python",
+            "c++",
+            "c"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "50": {
+        "task": "Интегрировать платёжный агрегатор в игровой движок на питоне",
+        "price": "100 000 руб. за проект",
+        "date_published": " 12 дней назад ",
+        "technologies": [
+            "python",
+            "stripe"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "51": {
+        "task": "Разработка серверной части веб-сервиса на Python (Django)",
+        "price": "договорная",
+        "date_published": " 12 дней назад ",
+        "technologies": [
+            "pythone",
+            "django",
+            "postgresql"
+        ],
+        "order_responses": " 13 откликов"
+    },
+    "52": {
+        "task": "Нужно доработать легаси проект на Python",
+        "price": "1 000 000 руб. за проект",
+        "date_published": " 12 дней назад ",
+        "technologies": [
+            "python",
+            "django",
+            "vuejs",
+            "postgresql",
+            "docker",
+            "legacy",
+            "team leader"
         ],
         "order_responses": " 21 отклик"
     },
-    "4": {
-        "task": "Создать/показать модельный сайт на современном Node.js (TS) фреймворке",
-        "price": "50 000 руб. за проект",
+    "53": {
+        "task": "Создать автоответчика Discord с пересылкой сообщений в ТГ",
+        "price": "40 000 руб. за проект",
+        "date_published": " 13 дней назад ",
+        "technologies": [
+            "программирование"
+        ],
+        "order_responses": " 19 откликов"
+    },
+    "54": {
+        "task": "Дописать программу на Python",
+        "price": "договорная",
+        "date_published": " 13 дней назад ",
+        "technologies": [
+            "знание python"
+        ],
+        "order_responses": " 10 откликов"
+    },
+    "55": {
+        "task": "Обучить новичка блокчейн разработе (Ethereum)",
+        "price": "1 000 руб. за час",
+        "date_published": " 13 дней назад ",
+        "technologies": [
+            "solidity",
+            "blockchain",
+            "ethereum"
+        ],
+        "order_responses": " 2 отклика"
+    },
+    "56": {
+        "task": "ПОЛОЖИТЬ САЙТ НА WORDPRESS",
+        "price": "3 000 руб. за проект",
+        "date_published": " 14 дней назад ",
+        "technologies": [
+            "python",
+            "php",
+            "js",
+            "mysql",
+            "wp",
+            "joomla",
+            "oc",
+            "laravel"
+        ],
+        "order_responses": " 14 откликов"
+    },
+    "57": {
+        "task": "Доработать модуль оплаты UnitPay на Django",
+        "price": "700 руб. за час",
+        "date_published": " 15 дней назад ",
+        "technologies": [
+            "python",
+            "django"
+        ],
+        "order_responses": " 3 отклика"
+    },
+    "58": {
+        "task": "Разработать сервис",
+        "price": "договорная",
         "date_published": " 16 дней назад ",
         "technologies": [
-            "node.js"
+            "php",
+            "ruby",
+            "go",
+            "python"
         ],
-        "order_responses": " 5 откликов"
+        "order_responses": " 26 откликов"
     },
-    "5": {
-        "task": "Frontend проект по автоматизации HR систем ",
-        "price": "150 000 руб. за проект",
-        "date_published": " 18 дней назад ",
+    "59": {
+        "task": "Разработать бот для Telegram, Viber, Messenger",
+        "price": "15 000 руб. за проект",
+        "date_published": " 16 дней назад ",
         "technologies": [
-            "js",
-            "react",
-            "ts",
-            "next.js",
-            "rest api",
-            "javascript"
+            "чат боты",
+            "viber",
+            "telegram"
+        ],
+        "order_responses": " 19 откликов"
+    },
+    "60": {
+        "task": "Провести техническое интервью ",
+        "price": "2 000 руб. за проект",
+        "date_published": " 17 дней назад ",
+        "technologies": [
+            "python",
+            "django"
+        ],
+        "order_responses": " 6 откликов"
+    },
+    "61": {
+        "task": "Реализовать проверку диктантов с помощью нейронной сети",
+        "price": "договорная",
+        "date_published": " 17 дней назад ",
+        "technologies": [
+            "computer vision",
+            "нейронные сети",
+            "python",
+            "скорость",
+            "опыт"
+        ],
+        "order_responses": " 9 откликов"
+    },
+    "62": {
+        "task": "Разработка системы принятия решений для Микрофинансовой компании",
+        "price": "500 000 руб. за проект",
+        "date_published": " 19 дней назад ",
+        "technologies": [
+            "python",
+            "риски",
+            "спр"
+        ],
+        "order_responses": " 27 откликов"
+    },
+    "63": {
+        "task": "Разработка back-end с реинжинирингом бинарного файла для приложения ",
+        "price": "договорная",
+        "date_published": " 20 дней назад ",
+        "technologies": [
+            "backend",
+            "api"
+        ],
+        "order_responses": " 9 откликов"
+    },
+    "64": {
+        "task": "Написать скрипт на модуле instapy с полным функционалом",
+        "price": "1 000 руб. за проект",
+        "date_published": " 20 дней назад ",
+        "technologies": [
+            "python",
+            "instapy",
+            "instagram"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "65": {
+        "task": "Доработать python скрипт для парсинга rss ссылок",
+        "price": "7 000 руб. за проект",
+        "date_published": " 21 день назад ",
+        "technologies": [
+            "python"
         ],
         "order_responses": " 18 откликов"
     },
-    "6": {
-        "task": "Разработать лендинг",
+    "66": {
+        "task": "Нужно сделать небольшой телеграм-бот на питоне",
         "price": "договорная",
         "date_published": " 21 день назад ",
         "technologies": [
-            "html",
-            "css",
-            "js",
-            "bootstrap",
-            "php"
+            "python",
+            "ubuntu"
         ],
-        "order_responses": " 41 отклик"
+        "order_responses": " 22 отклика"
     },
-    "7": {
-        "task": "JS, TS, Capacitor, Cordova developer for mobile app",
-        "price": "250 000 руб. за проект",
-        "date_published": " 30 дней назад ",
+    "67": {
+        "task": "Создание игры в Roblox",
+        "price": "10 руб. за проект",
+        "date_published": " 22 дня назад ",
         "technologies": [
-            "capacitor",
-            "cordova",
-            "typescript",
-            "javascript"
-        ],
-        "order_responses": " 5 откликов"
-    },
-    "8": {
-        "task": "Scala full stack доработка разделы игры в шахматном проекте",
-        "price": "250 000 руб. за проект",
-        "date_published": " 30 дней назад ",
-        "technologies": [
-            "scala",
-            "scalatag",
             "javascript",
-            "html"
+            "roblox",
+            "game",
+            "python",
+            "lua"
+        ],
+        "order_responses": " 3 отклика"
+    },
+    "68": {
+        "task": "Разработка мониторинга обменников криптовалют",
+        "price": "договорная",
+        "date_published": " 22 дня назад ",
+        "technologies": [
+            "vuejs",
+            "python",
+            "mongodb",
+            "docker",
+            "git",
+            "nuxt"
+        ],
+        "order_responses": " 4 отклика"
+    },
+    "69": {
+        "task": "Установить по на Rasspbery Pi ",
+        "price": "5 000 руб. за проект",
+        "date_published": " 22 дня назад ",
+        "technologies": [
+            "робототехника",
+            "raspberry pi",
+            "python"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "70": {
+        "task": "Разработка алгоритма по матчингу точек",
+        "price": "2 000 руб. за час",
+        "date_published": " 23 дня назад ",
+        "technologies": [
+            "компьютерное зрение",
+            "нейросети",
+            "opencv",
+            "computer vision",
+            "c++"
+        ],
+        "order_responses": " 6 откликов"
+    },
+    "71": {
+        "task": "Скопировать сайт с доработками: фронт Vue или React, бэк обговорим",
+        "price": "15 000 руб. за проект",
+        "date_published": " 23 дня назад ",
+        "technologies": [
+            "python",
+            "react",
+            "vue",
+            "laravel"
         ],
         "order_responses": " 5 откликов"
+    },
+    "72": {
+        "task": "Разработка таск менеджмера",
+        "price": "3 500 000 руб. за проект",
+        "date_published": " 24 дня назад ",
+        "technologies": [
+            "golang",
+            "python",
+            "reactjs"
+        ],
+        "order_responses": " 31 отклик"
+    },
+    "73": {
+        "task": "2 поля для парсера на Scrapy ",
+        "price": "2 000 руб. за проект",
+        "date_published": " 25 дней назад ",
+        "technologies": [
+            "python",
+            "scrapy",
+            "selector"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "74": {
+        "task": "Загрузить данные из API Московской Биржи",
+        "price": "20 000 руб. за проект",
+        "date_published": " 26 дней назад ",
+        "technologies": [
+            "python",
+            "airflow",
+            "clickhouse",
+            "mysql",
+            "api"
+        ],
+        "order_responses": " 9 откликов"
+    },
+    "75": {
+        "task": "Telegram Desktop source code research/reveng",
+        "price": "30 000 руб. за проект",
+        "date_published": " 27 дней назад ",
+        "technologies": [
+            "с++",
+            "cplusplus",
+            "aes",
+            "cpp"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "76": {
+        "task": "Требуется интегрировать Еще один источник помимо TradingView",
+        "price": "15 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "биржа",
+            "python",
+            "cryptocurrencies"
+        ],
+        "order_responses": "0 откликов"
+    },
+    "77": {
+        "task": "Восстановление работоспособности программы на Python",
+        "price": "5 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "python",
+            "python",
+            "django",
+            "postgresql."
+        ],
+        "order_responses": " 32 отклика"
+    },
+    "78": {
+        "task": "Python разработчик для работы с брендом в телеграм",
+        "price": "договорная",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "python",
+            "телеграм",
+            "чатботы",
+            "боты"
+        ],
+        "order_responses": " 7 откликов"
+    },
+    "79": {
+        "task": "Сообщения между пользователями в боте телеграмм",
+        "price": "25 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "python",
+            "php",
+            "json"
+        ],
+        "order_responses": " 22 отклика"
+    },
+    "77": {
+        "task": "Восстановление работоспособности программы на Python",
+        "price": "5 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "python",
+            "python",
+            "django",
+            "postgresql."
+        ],
+        "order_responses": " 32 отклика"
     }
 }

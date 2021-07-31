@@ -23,9 +23,9 @@ class Parser():
 
     def _main(self) -> None:
         Validation(self.url)
-        self.parse()
+        self._parse()
 
-    def parse(self) -> None:
+    def _parse(self) -> None:
         counter = 0
 
         for resp in self.pag.pagination_pages:
@@ -50,3 +50,6 @@ class Parser():
                 }
 
                 Json_worker(str(datetime.datetime.now())[:10:]).update_json(counter, ready_order)
+
+    def start_parse(self) -> None:
+        self._main()
