@@ -27,6 +27,7 @@ class Parser():
 
     def _parse(self) -> None:
         counter = 0
+        ready_dict = {}
 
         for resp in self.pag.pagination_pages:
             temp_parser = BeautifulSoup(resp.text, 'html.parser')
@@ -49,7 +50,9 @@ class Parser():
                     'order_responses': order_responses
                 }
 
-                Json_worker(str(datetime.datetime.now())[:10:]).update_json(counter, ready_order)
+                ready_dict[counter] = ready_order
+
+        Json_worker(str(datetime.datetime.now())[:10:]).dump_dict(ready_dict)
 
     def start_parse(self) -> None:
         self._main()

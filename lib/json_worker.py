@@ -20,6 +20,10 @@ class Json_worker:
         with open(path.join('orders', self.filename), 'w', encoding='utf-8') as updated_json_file:
             json.dump(py_dict, updated_json_file, indent=4, ensure_ascii=False)
 
+    def dump_dict(self, data: dict) -> None:
+        with open(path.join('orders', self.filename), 'w', encoding='utf-8') as updated_json_file:
+            json.dump(data, updated_json_file, indent=4, ensure_ascii=False)
+
     def create_json_file(self) -> None:
         with open(path.join('orders', self.filename), 'w', encoding='utf-8') as new_json_file:
             json.dump({}, new_json_file, ensure_ascii=False)
