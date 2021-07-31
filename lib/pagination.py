@@ -1,29 +1,34 @@
 import asyncio
 
-import asyncio
-
 import requests
 from bs4 import BeautifulSoup
 
-from req import get_response
+from .mainloop import Mainloop
+from .req import get_response
 
 
-class Pagination:
-    def __init__(self, url: str) -> None:
+class Pagination(Mainloop):
+    def __init__(self, url: str, filter_url: str = '') -> None:
         self.url = url
+        self.filter_url = filter_url
         self.pagination_pages = []
-        self.mainloop = asyncio.get_event_loop()
 
-        self._start_mainloop()
+        super().__init__()
+        self.start_mainloop(self._get_pagination_pages(self._get_page_count(self.url) + 1))
 
     def _get_page_count(self, url: str) -> int:
-        html_data = get_response(url).text
+        html_data = get_response(url, self.filter_url).text
 
         soup = BeautifulSoup(html_data, 'html.parser')
         pagination_div = soup.find_all('div', class_='pagination')
 
         if not pagination_div:
-            return 0
+            html_data = get_response(f'{url}?page=1', self.filter_url).text
+            soup = BeautifulSoup(html_data, 'html.parser')
+            pagination_div = soup.find_all('ul', class_='content-list content-list_tasks')
+            
+            assert pagination_div, 'page is empty'
+            return 1
 
         pagination_text = BeautifulSoup(pagination_div[0].text, 'html.parser')
 
@@ -36,20 +41,10 @@ class Pagination:
         return max_pag_number
 
     async def _get_list_futures(self, url: str, page_count: int) -> None:
-        return [self.mainloop.run_in_executor(None, get_response, f'{url}?page={i}') for i in range(1, page_count)]
+        return [self.mainloop.run_in_executor(None, get_response, f'{url}?page={i}', self.filter_url) for i in range(1, page_count)]
 
-    async def _get_responses(self, page_count: int):
+    async def _get_pagination_pages(self, page_count: int) -> list:
         for page in await self._get_list_futures(self.url, page_count):
             asyncio.ensure_future(page)
             self.pagination_pages.append(await page)
         return self.pagination_pages
-
-    def _start_mainloop(self) -> None:
-        try:
-            self.mainloop.run_until_complete(self._get_responses(self._get_page_count(self.url)))
-        except KeyboardInterrupt:
-            self.mainloop.close()
-
-
-a = Pagination('https://freelance.habr.com/tasks?')
-print(a.pagination_pages)

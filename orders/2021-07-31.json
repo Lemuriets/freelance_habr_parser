@@ -1,0 +1,95 @@
+{
+    "1": {
+        "task": "Расширение для Google Chrome ",
+        "price": "3 000 руб. за проект",
+        "date_published": " 10 дней назад ",
+        "technologies": [
+            "google chrome",
+            "расширение google chrome"
+        ],
+        "order_responses": " 1 отклик"
+    },
+    "2": {
+        "task": "Доработка приложения на NativeScript (TS)",
+        "price": "договорная",
+        "date_published": " 11 дней назад ",
+        "technologies": [
+            "ios",
+            "nativescript",
+            "xcode",
+            "ts"
+        ],
+        "order_responses": " 1 отклик"
+    },
+    "3": {
+        "task": "Доработка проекта на react",
+        "price": "800 руб. за час",
+        "date_published": " 15 дней назад ",
+        "technologies": [
+            "react",
+            "html",
+            "css"
+        ],
+        "order_responses": " 21 отклик"
+    },
+    "4": {
+        "task": "Создать/показать модельный сайт на современном Node.js (TS) фреймворке",
+        "price": "50 000 руб. за проект",
+        "date_published": " 16 дней назад ",
+        "technologies": [
+            "node.js"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "5": {
+        "task": "Frontend проект по автоматизации HR систем ",
+        "price": "150 000 руб. за проект",
+        "date_published": " 18 дней назад ",
+        "technologies": [
+            "js",
+            "react",
+            "ts",
+            "next.js",
+            "rest api",
+            "javascript"
+        ],
+        "order_responses": " 18 откликов"
+    },
+    "6": {
+        "task": "Разработать лендинг",
+        "price": "договорная",
+        "date_published": " 21 день назад ",
+        "technologies": [
+            "html",
+            "css",
+            "js",
+            "bootstrap",
+            "php"
+        ],
+        "order_responses": " 41 отклик"
+    },
+    "7": {
+        "task": "JS, TS, Capacitor, Cordova developer for mobile app",
+        "price": "250 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "capacitor",
+            "cordova",
+            "typescript",
+            "javascript"
+        ],
+        "order_responses": " 5 откликов"
+    },
+    "8": {
+        "task": "Scala full stack доработка разделы игры в шахматном проекте",
+        "price": "250 000 руб. за проект",
+        "date_published": " 30 дней назад ",
+        "technologies": [
+            "scala",
+            "scalatag",
+            "javascript",
+            "html"
+        ],
+        "order_responses": " 5 откликов"
+    }
+}
